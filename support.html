@@ -1,0 +1,380 @@
+<html ng-app="app" class="no-js" lang=“HTML5 ">
+  <head>
+    <meta charset="utf-8 ">
+    <meta http-equiv="x-ua-compatible " content="ie=edge ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>Netvue Tech | Support | FAQs | Videos and Media | Downloads | Contact</title>
+	  <script data-require="angular.js@1.2.0" data-semver="1.2.0" src="http://code.angularjs.org/1.2.0/angular.js"></script>
+  	<script data-require="angular-resource@1.2.0" data-semver="1.2.0" src="http://code.angularjs.org/1.2.0/angular-route.js"></script>
+	  <script data-require="angular-resource@1.2.0" data-semver="1.2.0" src="http://code.angularjs.org/1.2.0/angular-resource.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="website.js"></script>
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u " crossorigin="anonymous ">
+    <link rel="stylesheet " href="lightslider/css/lightslider.css ">      
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet " href="styles.css ">
+  </head>
+  <body ng-controller="appctrl">
+    <header ng-include="'templates/header.html'"></header>
+  <div class="container">
+        <h1>Support</h1>
+      <hr />
+    <div class="row">
+      <div class="col-xs-12 col-sm-2">
+        <ul id="supportTabs" class="nav nav-tabs support-tabs">
+          <li ><a href="#faq" name="faq" data-toggle="tab" aria-expanded="false">FAQ</a></li>
+          <li><a href="#downloads" name="downloads" data-toggle="tab" aria-expanded="false">Downloads</a></li>
+          <li><a href="#media" name="media" data-toggle="tab" aria-expanded="false">Media</a></li>
+          <li class="contact"><a href="#contact" name="contact" id="contact-tab" data-toggle="tab" aria-expanded="false">Contact</a></li>
+        </ul>
+
+      </div>
+      <div class="col-xs-12 col-sm-10">
+        <div class="tab-content">
+          <div class="tab-pane active" id="original">
+            <p>For problemshooting, questions, downloadable content or more information please select support from the tabs
+              <span class="for-desktop">to the side</span><span class="for-mobile">above</span></p>
+          </div>
+          <div class="tab-pane" id="faq" target="_blank">
+            <h2>FAQ</h2>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      My netvue doorbell doesn’t work with my existing indoor chime
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Your old indoor chime needs to be short circuited. The Vuebell voltage is 8-24V AC, 9-36V DC.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      I Can't connect or add my device/scan QR code/reset button doesn’t work
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    .Please wait for 30 seconds after connecting to power, then press reset button, the blue light will flash rapidly<br/>
+                    <b>a. </b> If blue light does not flash, please short circuit your existing doorbell. VueBell's voltage is 8-24V AC, 9-36DC.<br/>
+                    <b>b. </b> If blue light flashes,adjust the angle and distance when you scan your QR code and make sure there is no strong light around the doorbell and your phone.<br/>
+                    .If the scan is successful you will hear a chime
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      My Netvue device is having connection problems/will not connect
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Please make sure the wifi is 2.4G.<br/>
+                    <b>Step 1. </b> Please wait for 30 seconds after connecting to power, then press reset button, the blue light will flash. Then scan the QR code, there will be a DingDong sound if successful <br/>
+                    <b>Step 2. </b> Then wait the device connect to router. Connect success, it will play a cheerful music; failed, it will play a depress music, then you need check your 2.4G WiFi password right or not.<br/>
+                    <b>Step 3. </b> After hearing cheerful music, wait for the router connect to server. Please make sure the router is work then device can be added.<br/>
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                      aria-controls="collapseFour">
+                      My Netvue device can not recieve ring notifications
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Please make sure you are using the latest updated version of our APP.<br/>
+                    Please make sure your phone settings allow Vuebell push notifications.<br/>
+                    Please check device settings, make sure notification is on.<br/>
+                    If still not working please log out restart your phone and Sign in again.<br/>
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                      aria-controls="collapseFive">
+                      I Can not receive motion detection. Don't know how to set motion detection
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Please make sure the wifi is 2.4G.<br/>
+                    <b>Step 1. </b> Open the app <br/>
+                    <b>Step 2. </b> Go to the product live stream <br/>
+                    <b>Step 3. </b> Please check the top right corner Click on the settings icon<br/>
+                    <b>Step 4. </b> Go to Motion detection <br/>
+                    <b>Step 5. </b> Please turn on the MOTION DETECTION. Adjust the time from 0:00 Hrs to 24:Hrs (or to the hours which you would like motion detection active), Motion sensitive and motion zones also can be customized.
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false"
+                      aria-controls="collapseSix">
+                      My Netvue device is having connection problems/will not connect
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Please make sure you are using the latest updated version of our APP.<br/>
+                    Please make sure you are using 2.4G wifi with strong signal and your device is close enough to recieve it.<br/>
+                    If the wifi is fine, the problem may be an unstable voltage. The Vuebell voltage is 8-24V AC, 9-36V DC.<br/>
+                    Please turn off your router and device and turn them on again.
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
+                      aria-controls="collapseSeven">
+                      How do i share my account?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <b>Step 1. </b> Open the app <br/>
+                    <b>Step 2. </b> Tab into the live stream of your product <br/>
+                    <b>Step 3. </b> click shared users at the bottom right corner <br/>
+                    <b>Step 4. </b> press the + icon<br/>
+                    <b>Step 5. </b> enter shared user’s account name.<br/>
+                    The same account can be logged in on multiple different phones at the same time.
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false"
+                      aria-controls="collapseEight">
+                      How do I delete pictures/Videos?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <b>Step 1. </b> Open the app <br/>
+                    <b>Step 2. </b> Tab into the live stream of your product <br/>
+                    <b>Step 3. </b> click “history” in the bottom left corner <br/>
+                    <b>Step 4. </b> press and hold on an item for 2~3 seconds<br/>
+                    <b>Step 5. </b> A confirmation window will open, select 'confirm'
+                  </div>
+                </div>
+              </div>
+                            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false"
+                      aria-controls="collapseNine">
+                    The Time/time zone setting isn't working
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Sorry, our device can't currently support daylight savings times presently. But you can adjust the time manually for example if you are in UTC -6 you can choose UTC -5 during this time which will be an hour ahead.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false"
+                      aria-controls="collapseTen">
+                    I am not getting notifications from my netvue doorbell when there is motion detected
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    if there are multiple movements in front of doorbell constantly. Our app will take pictures every 5 seconds and send you motion notifications every 5 minutes, to avoid bothering the user.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false"
+                      aria-controls="collapseEleven">
+                    I am not getting notifications from my netvue doorbell when there is motion detected
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+Use flashlight or strong light to shine the Vuebell for several seconds, then turn off the light. To see if it will come back daytime mode.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false"
+                      aria-controls="collapseTwelve">
+                    The picture from my device is black & white or pink during daylight
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Some of our devices record in black and white during night, if it is still black and white during the day, the sensor needs to be shown a bright light<br/>
+                    Hold a strong light into the doorbell for a few seconds and it should fix the problem.
+                  </div>
+                </div>
+              </div>    
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false"
+                      aria-controls="collapseThirteen">
+                      The indoor chime is not making any noise.
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Remove the indoor chime battery and put it inside again, then press the doorbell button. The indoor chime should work again.
+                  </div>
+                </div>
+              </div>    
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false"
+                      aria-controls="collapseFourteen">
+                      The recorded motion clip images are not showing, but show a grey stock image
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">                    
+                    This means there has been a problem downloading or loading the clips<br/>
+                    <b>Step 1. </b> Please make sure you are using the latest updated version of our App.<br/>
+                    <b>Step 2. </b> please cut off power and reconnect.<br/>
+                    <b>Step 3. </b> If some of the iamges aren't showing, it’s normal. This means the network was not strong enough and failed while downloading them.<br/>
+                    Please make sure your 2.4G wifi signal is strong and place your doorbell near the router to download.
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="tab-pane" target="_blank" id="downloads">
+            <h2>Downloads</h2>
+            <div class="apps">
+              <a class="apple-app" href=""></a>
+              <a class="android-app" href=""></a>
+            </div>
+            <div class="product-download">
+              <h3>Netvue App</h3>
+              <a href="https://play.google.com/store/apps/details?id=com.netviewtech"><i class="fa fa-android" aria-hidden="true"></i>App</a>
+              <a href="https://itunes.apple.com/us/app/netvue/id488519747?mt=8"><i class="fa fa-apple" aria-hidden="true"></i>App</a>
+            </div>
+            <!-- <div class="product-download">
+              <h3>Product Model</h3>
+              <a href="">Specs</a>
+              <a href="">Tech Specs</a>
+              <a href="">User Manual</a>
+            </div> -->
+          </div>
+          <div class="tab-pane" id="media" target="_blank">
+            <h2>Media</h2>
+            <iframe width="280" height="157" src="https://www.youtube.com/embed/OXsy1jmJJM0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="280" height="157" src="https://www.youtube.com/embed/GgiT_Klp6UM" frameborder="0" allowfullscreen></iframe>
+            <iframe width="280" height="157" src="https://www.youtube.com/embed/uv3MgBwi8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe width="280" height="157" src="https://www.youtube.com/embed/KHvlQN-6bVI" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="tab-pane" id="contact" target="_blank">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch with us over any matters, please use the contact information or form below.
+              If you are having trouble with your Netvue product you might first want to use our FAQ section first, or the
+              livechat in the bottom of the page.</p>
+            <div class="row">
+              <div class="col-xs-12 col-sm-5">
+                <div id="map" style="height:225px;"></div>
+                <script>
+                  function initMap() {
+                    var uluru = {lat: 22.5376974, lng:  113.9542550};
+                    var center = {lat: 22.5416474, lng:  113.9500450}; // MAP BUG 'SOMETIMES' CENTERS MAP SO MARKER IS IN TOP LEFT - THIS IS A QUICK FIX
+                    var map = new google.maps.Map(document.getElementById('map'), { zoom: 15, center: center });
+                    var marker = new google.maps.Marker({ position: uluru, map: map }); }
+                </script>
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <label>Phone: +86-755-86219268</label><br/>
+                <label>Email: info@netviewtech.com</label><br/>
+                <label>Fax: +86-755-86607322</label><br/>
+                <label>Address: </label><br/>
+                <label>A501-502, Academy of Aerospace Technology, 10th Kejinan Road, Shenzhen Science Park, Nanshan District, Shenzhen, P.R.China</label><br/>
+                <ul class="social-media-list ">
+                  <li>Follow us: <b>/mynetvue</b></li>
+                  <li class="social-media-item "><a href="facebook.com/mynetvue " class="facebook "></a></li>
+                  <li class="social-media-item "><a href="twitter.com/mynetvue " class="twitter "></a></li>
+                  <li class="social-media-item "><a href="linkedin.com " class="linked "></a></li>
+                  <li class="social-media-item "><a href="youtube.com/channel/UCt5Mhr0sgLVUVq1aFnURWCQ " class="youtube "></a></li>
+                  <!--<li class="social-media-item "><a href="google " class="google "></a></li>-->
+                  <li class="social-media-item "><a href="instagram.com/mynetvue " class="instagram "></a></li>
+                </ul>
+              </div>
+            </div>
+            <section class="form ">
+              <h2>Would you like to know more?</h2>
+              <p>If you would like to learn more about any of our products or place an order with us, please fill in the information
+                before and send us a message, alternatively you can Contact us directly by using our contact information
+                above
+              <form name="htmlform" target="_blank" action="email.php" method="POST">
+                <div class="row ">
+                  <div class="col-xs-12 col-sm-6">
+                    <label>Name</label>
+                    <input type="text " class="form-control name" name="name" placeholder="first name" required>
+                    <label>Email</label>
+                    <input type="email " class="form-control " name="email " placeholder="email address " required>
+                    <label>Website</label>
+                    <input type="text " class="form-control " name="website " placeholder="website" required>
+                    <label>Job Title</label>
+                    <input type="text " class="form-control " name="job " placeholder="job title" required>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 ">
+                    <label>Phone number</label>
+                    <input type="text " class="form-control " name="phone " placeholder="phone number" required>
+                    <label>Message</label>
+                    <textarea class="form-control " name="message " placeholder="type a message here" required></textarea>
+                  </div>
+                </div>
+                <div class="submit-button"><input id="submit " class="submit btn" type="submit " name="submit " value="Contact Us Today "></div>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer ng-include="'templates/footer.html'"></footer>
+</body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+  <script type="text/javascript " src="lightslider/js/lightslider.min.js "></script>
+  <script type="text/javascript " src="main.js "></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcmyoGD-r8HMz7q1ADwaEb8M9PILAguvE&callback=initMap" type="text/javascript"></script>
+</html>

@@ -1,0 +1,2 @@
+C:\xampp\htdocs\example\public\theme\base-2016
+http://localhost/bolt/file/edit/themes/base-2016/css/theme.css

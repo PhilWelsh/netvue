@@ -1,0 +1,11 @@
+This Font is a Derivative of the Apache Licensed open source font, Roboto.
+
+Change Log:
+
+New Name "Asimov", new Quotation Mark and Apostrophe designs, Modified Dollar Sign, tweaked Ampersand, tweaked number 4, new number 1, added Triple Prime Mark, added Interrobang character, added Russian Ruble Mark, added Telephone sign, added basic Roman Numerals, plus new weights.
+
+Asimov Pro Change Log:
+
+New Name "Asimov Pro", all above changes plus; tweaked uppercase G, tweaked uppercase H, added Cyrillic Pokrytie, added a few characters in the Latin Extended B set, added the European Currency Unit (ECU, the predecessor to the Euro) symbol, swapped some characters with their alternate forms, Plus new weights.
+
+Additions and changed characters contributed by Cannot Into Space Fonts.
